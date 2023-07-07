@@ -1,0 +1,38 @@
+.containerNewTask {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem
+}
+.containerNewTask input{
+    padding: 1.6rem;
+    border-radius: .8rem;
+    border: none;
+    background: var(--gray-500);
+    width: 100%;
+    color: var(--gray-300);
+}
+
+.containerNewTask input:focus{
+    color: var(--gray-100);
+    outline: transparent;
+    box-shadow: 0 0 0 1px var(--purple-500);
+}
+
+.containerNewTask button{
+    padding: 1.6rem;
+    border-radius: .8rem;
+    border: none;
+    background: var(--blue-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    
+}
+
+.containerNewTask button:hover {
+    background: var(--blue-300);
+    transition: color 0.3s;
+}
